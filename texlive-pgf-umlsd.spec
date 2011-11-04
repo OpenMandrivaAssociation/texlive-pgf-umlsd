@@ -1,3 +1,9 @@
+# revision 21301
+# category Package
+# catalog-ctan /graphics/pgf/contrib/pgf-umlsd
+# catalog-date 2011-02-03 13:02:40 +0100
+# catalog-license gpl
+# catalog-version 0.5
 Name:		texlive-pgf-umlsd
 Version:	0.5
 Release:	1
@@ -40,6 +46,7 @@ LaTeX macros to draw UML diagrams using pgf.
 %doc %{_texmfdistdir}/doc/latex/pgf-umlsd/pgf-umlsd-demo.tex
 %doc %{_texmfdistdir}/doc/latex/pgf-umlsd/pgf-umlsd-demo2.pdf
 %doc %{_texmfdistdir}/doc/latex/pgf-umlsd/pgf-umlsd-demo2.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -50,3 +57,5 @@ LaTeX macros to draw UML diagrams using pgf.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
