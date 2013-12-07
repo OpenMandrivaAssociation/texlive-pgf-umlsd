@@ -6,7 +6,7 @@
 # catalog-version 0.5
 Name:		texlive-pgf-umlsd
 Version:	0.5
-Release:	2
+Release:	3
 Summary:	Draw UML Sequence Diagrams
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pgf/contrib/pgf-umlsd
