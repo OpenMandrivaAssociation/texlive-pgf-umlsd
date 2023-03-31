@@ -1,6 +1,6 @@
 Name:		texlive-pgf-umlsd
 Version:	55342
-Release:	1
+Release:	2
 Summary:	Draw UML Sequence Diagrams
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pgf/contrib/pgf-umlsd
