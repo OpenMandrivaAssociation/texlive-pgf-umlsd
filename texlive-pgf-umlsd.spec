@@ -3,7 +3,7 @@ Version:	55342
 Release:	2
 Summary:	Draw UML Sequence Diagrams
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/graphics/pgf/contrib/pgf-umlsd
+URL:		https://www.ctan.org/tex-archive/graphics/pgf/contrib/pgf-umlsd
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pgf-umlsd.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pgf-umlsd.doc.r%{version}.tar.xz
